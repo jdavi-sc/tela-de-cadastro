@@ -1,0 +1,142 @@
+/*Estilização corpo*/
+.corpo{
+    background-image: linear-gradient(75deg, #000000, #393939, #565656, #929292, #CDCDCD);
+}
+
+/*Estilização div*/
+.caixa{
+    background-color: #121212;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left:50%;
+    text-align: center;
+    padding: 100px;
+    border-radius: 10px;
+}
+
+/*logo estilização*/
+
+.logo{
+    width: 90px;
+    height: 60px;
+}
+
+/*Estilização de titulo*/
+.titulo{
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/*estilização de inputs*/
+
+.infos{
+    background-color: #121212;
+    color: white;
+    padding: 15px;
+    border: 1px solid #7C7C7C;
+    width: 275px;
+    border-radius: 5px;
+}
+
+.infos:hover{
+    border: 1px solid white;
+}
+
+
+
+/*estilização de usar numero de telefone*/
+
+.phonenumber{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: small;
+}
+
+.phonenumber:link{
+    color: white;
+    text-decoration: underline;
+}
+
+.phonenumber:visited{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.phonenumber:hover{
+    color: #1ED760;
+    text-decoration: underline;
+}
+
+/*estilização do botão avançar*/
+
+.avancar{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 275px;
+    background-color: #1ED760;
+    border-radius: 30px;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid #1ED760;
+}
+
+.avancar:hover{
+    background-color: #3be477;
+}
+
+/*estilização do ou*/
+
+.ou{
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+
+/*estilização dos botões inscreva se com*/
+
+.inscrevasecom{
+    background-color: #121212;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border: 1px solid #7C7C7C;
+    width: 275px;
+    padding: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.inscrevasecom:hover{
+    border: 1px solid white;
+}
+
+/*estilização do login*/
+
+.login{
+    color: #7C7C7C;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: small;
+}
+
+/*estilização do linklogin*/
+
+.linklogin:link{
+    color: white;
+    text-decoration: underline;
+}
+
+.linklogin:visited{
+    color: white;
+    text-decoration: underline;
+}
+
+.linklogin:hover{
+    color: white;
+    text-decoration: underline;
+}
